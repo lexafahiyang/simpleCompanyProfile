@@ -1,0 +1,49 @@
+name: flutertanpacomentdantes
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  carousel_slider: ^4.2.1
+  flutter_native_splash: ^2.3.3
+  # google_maps_flutter: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/jta.png
+    - assets/jne.png
+    - assets/jnt.png
+    - assets/jntc.png
+    - assets/sx.png
+    - assets/aa.png
+    - assets/wpe.png
+    - assets/indahc.png
+    - assets/sea2.png
+    - assets/nea.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/jta.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21  
+
+# flutter_native_splash-development.yaml
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/jta.png  # Sesuaikan path dengan gambar splash screen Anda
+  branding: assets/jta.png  # Sesuaikan path dengan gambar branding Anda
+  color_dark: "#121212"
+  image_dark: assets/icon/jta.png  # Sesuaikan path dengan gambar splash screen dark mode Anda
+  branding_dark: assets/jta.png  # Sesuaikan path dengan gambar branding d
